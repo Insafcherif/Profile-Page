@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content:space-evenly;
+    background-color: black;
+    height: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+header:hover {
+
+    box-shadow: 0 1px 6px 0 rgba(62, 62, 63, 0.28);
+}
+
+body {
+    font-weight: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 25%
+}
+
+.btn {
+    background-color: rgb(23, 162, 184);
+    color: white;
+    padding: 5px;
+}
+
+.main {
+    margin-top: 100px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#profil {
+    width: 110px;
+    height: 110px;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+
+.loc {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 25px;
+}
+
+p {
+    margin-top: 5px;
+}
+
+.edit {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100px;
+}
+
+.Box1 {
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(to bottom, rgb(23, 162, 184) 0%, rgb(23, 162, 184) 25%, rgb(23, 162, 184) 25%, white 25%, white 100%);
+    border: 1px solid rgb(188, 186, 186);
+    box-shadow: 1px 1px 1px 1px rgb(188, 186, 186);
+    padding-top: 35px;
+    padding-left: 30px;
+}
+
+.Box2 {
+    margin-top: 30px;
+    width: 400px;
+    height: 175px;
+    background: linear-gradient(to bottom, rgb(33, 32, 32) 0%, rgb(33, 32, 32) 20%, rgb(33, 32, 32) 20%, white 20%, white 100%);
+    border: 1px solid rgb(188, 186, 186);
+    box-shadow: 1px 1px 1px 1px rgb(188, 186, 186);
+    padding-top: 12px;
+    padding-left: 30px;
+}
+
+#educ {
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#coding {
+    font-family: Verdana;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#perd {
+    font-family: Verdana;
+    font-size: 17px;
+    color: rgb(151, 151, 151);
+    margin-bottom: 10px;
+}
+
+.box3 {
+    margin-top: 10px;
+    width: 300px;
+    height: 180px;
+    background: linear-gradient(to bottom, rgb(33, 32, 32) 0%, rgb(33, 32, 32) 22%, rgb(33, 32, 32) 22%, white 22%, white 100%);
+    border: 1px solid rgb(188, 186, 186);
+    box-shadow: 1px 1px 1px 1px rgb(188, 186, 186);
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.circle {
+    border-radius: 50%;
+    padding-top: 2px;
+    width: 20px;
+    height: 20px;
+    background: rgb(172, 172, 172);
+    border: 3px solid rgb(172, 172, 172);
+    color: #000;
+    text-align: center;
+    font: 13px Verdana;
+}
+
+.connect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+#conct {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.req {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.accept {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 55px;
+    margin-bottom: 10px;
+}
+
+.req1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.box4 {
+    margin-top: 20px;
+    width: 300px;
+    height: 250px;
+    background: linear-gradient(to bottom, rgb(33, 32, 32) 0%, rgb(33, 32, 32) 15%, rgb(33, 32, 32) 15%, white 15%, white 100%);
+    border: 1px solid rgb(188, 186, 186);
+    box-shadow: 1px 1px 1px 1px rgb(188, 186, 186);
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.circle2 {
+    border-radius: 50%;
+    padding-top: 2px;
+    width: 40px;
+    height: 20px;
+    background: rgb(172, 172, 172);
+    border: 3px solid rgb(172, 172, 172);
+    color: #000;
+    text-align: center;
+    font: 13px Verdana;
+}
